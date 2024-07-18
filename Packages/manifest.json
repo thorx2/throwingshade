@@ -1,7 +1,23 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.browar.editor-toolbox",
+        "com.dbrizov.naughtyattributes",
+        "com.coffee.ui-effect"
+      ]
+    }
+  ],
   "dependencies": {
+    "com.coffee.ui-effect": "4.0.0-preview.10",
+    "com.browar.editor-toolbox": "0.12.12",
+    "com.dbrizov.naughtyattributes": "2.1.4",
+    "com.unity.2d.animation": "9.1.1",
     "com.unity.2d.pixel-perfect": "5.0.3",
     "com.unity.2d.sprite": "1.0.0",
+    "com.unity.2d.spriteshape": "9.0.4",
     "com.unity.burst": "1.8.16",
     "com.unity.cinemachine": "2.10.1",
     "com.unity.collab-proxy": "2.4.3",
